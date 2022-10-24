@@ -17,7 +17,7 @@
 	
 	//if(!session)session={user:'diego24',people:{nombres:'Diego Raul',urlPerfil:'https://c.pxhere.com/photos/41/1a/old_woman_mesch_face_peru_peruvian_andes_south_america-601535.jpg!d'}};
 	
-	axios.defaults.baseURL = 'http://web.regionancash.gob.pe';
+	axios.defaults.baseURL = process.env.VUE_APP_BASE_URL;
 	export default {
 		created(){
 			var me=this;

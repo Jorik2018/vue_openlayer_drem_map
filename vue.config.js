@@ -11,5 +11,5 @@ module.exports = {
 	
   }
   
-  ,publicPath:'/drenergiaminas_ancash/map'
+  ,publicPath:process.env.VUE_APP_PUBLIC_PATH
 }
