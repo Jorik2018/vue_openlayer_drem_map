@@ -1,0 +1,15 @@
+npm install    // para instalar los node_modules
+npm run serve      // para arrancar el paquete
+npm run build // para deployar
+
+npx cap add android
+npx cap copy // para pasar ah android
+
+$ npm install @ionic/vue
+@ionic/vue@5.6.5
+
+npm http-server
+luego ejectuar en el dist
+http-server
+
+
